@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "bootstrap": "^4.5.3",
     "css-loader": "^5.0.1",
+    "sass-loader": "^10.1.0",
     "style-loader": "^2.0.0",
     "styles-loader": "^3.0.0",
     "webpack": "^5.10.1",
