@@ -1,4 +1,6 @@
 const path = require("path");
+const html = require("html-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
     entry: "./src/index.js",
     output: {
@@ -21,5 +23,7 @@ module.exports = {
                 //sass-loader will convert sass in CSS
             }
         ]
-    }
+    },
+    plugins: [new HtmlWebpackPlugin(
+        { template: './template.html' })]
 }
